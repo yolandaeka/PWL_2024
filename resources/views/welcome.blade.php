@@ -1,60 +1,38 @@
+<!DOCTYPE html>
 <html lang="id">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kartu Tanda Penduduk (KTP) Indonesia</title>
 </head>
-<body style="display: flex;
-            justify-content: center;
-            align-items: center;" >
+<body>
 
-<div class="ktp">
-    <h2 class="ktp-title">PROVINSI JAWA TIMUR</h2>
-    <h2 class="ktp-title">KABUPATEN MALANG</h2>
-    <div class="ktp-info">
-        <div class="ktp-info">
-            <div class="NIK">
-                <span class="ktp-info-label">NIK</span> : 35030843100300010
-            </div>
-            <div class="ktp-info-item">
-                <span class="ktp-info-label">Nama</span> : YOLANDA EKAPUTRI SETYAWAN
-            </div>
-            <div class="ktp-info-item">
-                <span class="ktp-info-label">Tempat / Tgl Lahir</span> : MALANG, 18-05-2004
-            </div>
-            <div class="ktp-info-item">
-                <span class="ktp-info-label">Jenis Kelamin</span> : PEREMPUAN
-                <span class="ktp-info-label" style="margin-left: 1.8rem;">Gol Darah : O
-            </div>
-            <div class="ktp-info-item">
-                <span class="ktp-info-label">Alamat</span> : SAPTORAYA BLOK AE-01
-            </div>
-            <div class="ktp-info-item">
-                <span class="ktp-info-label">RT / RW</span> : 002/015
-            </div>
-            <div class="ktp-info-item">
-                <span class="ktp-info-label">Kel/Desa</span> : SAPTORENGGO
-            </div>
-            <div class="ktp-info-item">
-                <span class="ktp-info-label">Kecamatan</span> : PAKIS
-            </div>
-            <div class="ktp-info-item">
-                <span class="ktp-info-label">Agama</span> : ISLAM
-            </div>
-            <div class="ktp-info-item">
-                <span class="ktp-info-label">Status Perkawinan</span> : BELUM KAWIN
-            </div>
-            <div class="ktp-info-item">
-                <span class="ktp-info-label">Pekerjaan</span> : PELAJAR/MAHASISWA
-            </div>
-            <div class="ktp-info-item">
-                <span class="ktp-info-label">Kewarganegaraan</span> : WNI
-            </div>
-            <div class="ktp-info-item">
-                <span class="ktp-info-label">Berlaku Hingga</span> : SEUMUR HIDUP
-            </div>
-        </div>
-    </div>
-</div>
+<table border="1" width="600">
+    <tr>
+        <td colspan="2" align="center">
+            <strong>PROVINSI JAWA TIMUR</strong><br>
+            <strong>KABUPATEN MALANG</strong>
+        </td>
+    </tr>
+    <tr>
+        <td width="50%">
+            <strong>NIK</strong> : 3503084310030010<br>
+            <strong>Nama</strong> : YOLANDA EKAPUTRI SETYAWAN<br>
+            <strong>Tempat / Tgl Lahir</strong> : MALANG, 18-05-2004<br>
+            <strong>Jenis Kelamin</strong> : PEREMPUAN<br>
+            <strong>Gol Darah</strong> : 0<br>
+            <strong>Alamat</strong> : SAPTORAYA BLOK AE-01<br>
+            <strong>RT / RW</strong> : 002/015<br>
+            <strong>Kel/Desa</strong> : SAPTORENGGO<br>
+            <strong>Kecamatan</strong> : PAKIS<br>
+            <strong>Agama</strong> : ISLAM<br>
+            <strong>Status Perkawinan</strong> : BELUM KAWIN<br>
+            <strong>Pekerjaan</strong> : PELAJAR/MAHASISWA<br>
+            <strong>Kewarganegaraan</strong> : WNI<br>
+            <strong>Berlaku Hingga</strong> : SEUMUR HIDUP
+        </td>
+    </tr>
+</table>
 
 </body>
 </html>
